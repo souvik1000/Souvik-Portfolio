@@ -12,6 +12,8 @@ type IStateProps = ReturnType<typeof mapStateToProps>;
 
 type IReduxProps = IStateProps;
 
+const BASE_URL = window.origin;
+
 const Body: React.FC<IReduxProps> = ({ selectedType }) => {
   const getRenderedComponentOnType = () => {
     switch (selectedType) {
@@ -26,6 +28,7 @@ const Body: React.FC<IReduxProps> = ({ selectedType }) => {
       case "Feedback":
         return <Contact />;
       default:
+        window.history.pushState(null, "", BASE_URL);
         return <MySelf />;
     }
   };
