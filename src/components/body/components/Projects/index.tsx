@@ -84,7 +84,7 @@ const Projects = () => {
                   "Redux",
                   "Axios",
                   "TypeScript",
-                  "simantic-ui (depricate)",
+                  "semantic-ui (deprecate)",
                 ]}
                 desciption="A generic component that helps users to get the weather update of their current location. Also, they can search based on specific locations by city and by pin code. In addition to this, the user can get forecast reports of the upcoming 15 days of data."
                 // Todo(Souvik): Have to add video with audio link
