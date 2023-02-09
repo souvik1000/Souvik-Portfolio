@@ -64,7 +64,7 @@ const Projects = () => {
                   url: "https://github.com/souvik1000/Trello-clone-application",
                   site: "GITHUB",
                 }}
-                desciption="t's a replica of the Trello todo application, where users can create and manage their
+                desciption="It's a replica of the Trello todo application, where users can create and manage their
                 TODOs on multiple boards."
                 hosted={{
                   url: "https://8huu7s.csb.app/",
